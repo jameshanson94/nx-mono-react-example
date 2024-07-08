@@ -1,5 +1,202 @@
 {
-  "nodes": {},
+  "nodes": {
+    "react-vite-ui": {
+      "name": "react-vite-ui",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-vite-ui",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "tsc -b && vite build",
+              "runCommand": "pnpm run build"
+            },
+            "inputs": [
+              "!{projectRoot}/**/*.md"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "vite",
+              "runCommand": "pnpm run dev"
+            },
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+              "runCommand": "pnpm run lint"
+            },
+            "configurations": {}
+          },
+          "preview": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "preview"
+            },
+            "metadata": {
+              "scriptContent": "vite preview",
+              "runCommand": "pnpm run preview"
+            },
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react-vite-ui",
+        "name": "react-vite-ui",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "lint",
+              "preview"
+            ]
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "react-app": {
+      "name": "react-app",
+      "type": "lib",
+      "data": {
+        "root": "packages/react-app",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "tsc -b && vite build",
+              "runCommand": "pnpm run build"
+            },
+            "inputs": [
+              "!{projectRoot}/**/*.md"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "vite",
+              "runCommand": "pnpm run dev"
+            },
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+              "runCommand": "pnpm run lint"
+            },
+            "configurations": {}
+          },
+          "preview": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "preview"
+            },
+            "metadata": {
+              "scriptContent": "vite preview",
+              "runCommand": "pnpm run preview"
+            },
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react-app",
+        "name": "react-app",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "lint",
+              "preview"
+            ]
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "shared-ui": {
+      "name": "shared-ui",
+      "type": "lib",
+      "data": {
+        "root": "packages/shared-ui",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "metadata": {
+              "scriptContent": "rm -rf dist && tsc",
+              "runCommand": "pnpm run build"
+            },
+            "inputs": [
+              "!{projectRoot}/**/*.md"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/shared-ui",
+        "name": "shared-ui",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "build"
+            ]
+          },
+          "description": ""
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
   "externalNodes": {
     "npm:@ampproject/remapping": {
       "type": "npm",
@@ -1583,6 +1780,15 @@
         "version": "19.4.1",
         "packageName": "@nx/workspace",
         "hash": "sha512-2HhPdxe2+kOSc2T4kg2xKqCaQAGYBLfEf7XXGKKJFmZlr1RBp6+mutEzmWUw62BenKagPaIgPV6mfr2TSwzlYQ=="
+      }
+    },
+    "npm:@rollup/plugin-alias": {
+      "type": "npm",
+      "name": "npm:@rollup/plugin-alias",
+      "data": {
+        "version": "5.1.0",
+        "packageName": "@rollup/plugin-alias",
+        "hash": "sha512-lpA3RZ9PdIG7qqhEfv79tBffNaoDuukFDrmhLqg9ifv99u/ehn+lOg30x2zmhf8AQqQUZaMk/B9fZraQ6/acDQ=="
       }
     },
     "npm:@rollup/rollup-android-arm-eabi": {
@@ -3871,6 +4077,15 @@
         "hash": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
       }
     },
+    "npm:react-hooks": {
+      "type": "npm",
+      "name": "npm:react-hooks",
+      "data": {
+        "version": "1.0.1",
+        "packageName": "react-hooks",
+        "hash": "sha512-PXU08tw4SvKwkW99qgnyV98x939RCmBC6aXqALPQXPjKq6+6EoH79Rz4KdUozzlpSyWmn2IiEm0vh3p+79aP5w=="
+      }
+    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -4096,13 +4311,22 @@
         "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ=="
       }
     },
-    "npm:slash": {
+    "npm:slash@3.0.0": {
       "type": "npm",
-      "name": "npm:slash",
+      "name": "npm:slash@3.0.0",
       "data": {
         "version": "3.0.0",
         "packageName": "slash",
         "hash": "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
+      }
+    },
+    "npm:slash@4.0.0": {
+      "type": "npm",
+      "name": "npm:slash@4.0.0",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "slash",
+        "hash": "sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew=="
       }
     },
     "npm:source-map-js": {
@@ -4557,6 +4781,167 @@
     }
   },
   "dependencies": {
+    "react-vite-ui": [
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@rollup/plugin-alias",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@types/react",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@types/react-dom",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@typescript-eslint/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:eslint-plugin-react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:eslint-plugin-react-refresh",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "react-vite-ui",
+        "target": "npm:react-dom",
+        "type": "static"
+      }
+    ],
+    "react-app": [
+      {
+        "source": "react-app",
+        "target": "npm:@types/react",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@types/react-dom",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@typescript-eslint/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint-plugin-react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:eslint-plugin-react-refresh",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "react-vite-ui",
+        "type": "static"
+      },
+      {
+        "source": "react-app",
+        "target": "shared-ui",
+        "type": "static"
+      }
+    ],
+    "shared-ui": [
+      {
+        "source": "shared-ui",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "shared-ui",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "shared-ui",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "npm:@ampproject/remapping": [
       {
         "source": "npm:@ampproject/remapping",
@@ -7315,6 +7700,18 @@
         "type": "static"
       }
     ],
+    "npm:@rollup/plugin-alias": [
+      {
+        "source": "npm:@rollup/plugin-alias",
+        "target": "npm:slash@4.0.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@rollup/plugin-alias",
+        "target": "npm:rollup",
+        "type": "static"
+      }
+    ],
     "npm:@types/babel__core": [
       {
         "source": "npm:@types/babel__core",
@@ -8750,7 +9147,7 @@
       },
       {
         "source": "npm:globby",
-        "target": "npm:slash",
+        "target": "npm:slash@3.0.0",
         "type": "static"
       }
     ],

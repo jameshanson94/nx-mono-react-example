@@ -1584,6 +1584,15 @@
         "hash": "sha512-2HhPdxe2+kOSc2T4kg2xKqCaQAGYBLfEf7XXGKKJFmZlr1RBp6+mutEzmWUw62BenKagPaIgPV6mfr2TSwzlYQ=="
       }
     },
+    "npm:@rollup/plugin-alias": {
+      "type": "npm",
+      "name": "npm:@rollup/plugin-alias",
+      "data": {
+        "version": "5.1.0",
+        "packageName": "@rollup/plugin-alias",
+        "hash": "sha512-lpA3RZ9PdIG7qqhEfv79tBffNaoDuukFDrmhLqg9ifv99u/ehn+lOg30x2zmhf8AQqQUZaMk/B9fZraQ6/acDQ=="
+      }
+    },
     "npm:@rollup/rollup-android-arm-eabi": {
       "type": "npm",
       "name": "npm:@rollup/rollup-android-arm-eabi",
@@ -3870,6 +3879,15 @@
         "hash": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw=="
       }
     },
+    "npm:react-hooks": {
+      "type": "npm",
+      "name": "npm:react-hooks",
+      "data": {
+        "version": "1.0.1",
+        "packageName": "react-hooks",
+        "hash": "sha512-PXU08tw4SvKwkW99qgnyV98x939RCmBC6aXqALPQXPjKq6+6EoH79Rz4KdUozzlpSyWmn2IiEm0vh3p+79aP5w=="
+      }
+    },
     "npm:react-is": {
       "type": "npm",
       "name": "npm:react-is",
@@ -4095,13 +4113,22 @@
         "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ=="
       }
     },
-    "npm:slash": {
+    "npm:slash@3.0.0": {
       "type": "npm",
-      "name": "npm:slash",
+      "name": "npm:slash@3.0.0",
       "data": {
         "version": "3.0.0",
         "packageName": "slash",
         "hash": "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
+      }
+    },
+    "npm:slash@4.0.0": {
+      "type": "npm",
+      "name": "npm:slash@4.0.0",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "slash",
+        "hash": "sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew=="
       }
     },
     "npm:source-map-js": {
@@ -7057,6 +7084,16 @@
       "type": "static"
     },
     {
+      "source": "npm:@rollup/plugin-alias",
+      "target": "npm:slash@4.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@rollup/plugin-alias",
+      "target": "npm:rollup",
+      "type": "static"
+    },
+    {
       "source": "npm:@types/babel__core",
       "target": "npm:@babel/parser",
       "type": "static"
@@ -8328,7 +8365,7 @@
     },
     {
       "source": "npm:globby",
-      "target": "npm:slash",
+      "target": "npm:slash@3.0.0",
       "type": "static"
     },
     {

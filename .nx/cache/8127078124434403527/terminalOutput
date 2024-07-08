@@ -1,0 +1,4 @@
+
+> shared-ui@1.0.0 build /home/james/Documents/Development/Projects/nx-mono-react-example/packages/shared-ui
+> rm -rf dist && tsc
+

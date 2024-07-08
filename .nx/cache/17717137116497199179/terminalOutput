@@ -1,0 +1,13 @@
+
+> react-vite-ui@0.0.0 build /home/james/Documents/Development/Projects/nx-mono-react-example/packages/react-vite-ui
+> tsc -b && vite build
+
+[36mvite v5.3.3 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 12 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[36mreact-vite-ui.es.js  [39m[1m[2m22.30 kB[22m[1m[22m[2m │ gzip: 6.64 kB[22m
+No name was provided for external module "react" in "output.globals" – guessing "require$$0".
+[2mdist/[22m[36mreact-vite-ui.umd.js  [39m[1m[2m14.77 kB[22m[1m[22m[2m │ gzip: 5.78 kB[22m
+[32m✓ built in 488ms[39m
