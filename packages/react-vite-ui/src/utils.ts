@@ -8,5 +8,5 @@ export interface IName {
 }
 
 export function getFullName(name: IName) {
-  return `${name.forename} ${name.surname}`;
+  return `${name.forename} ${name.surname} v5`;
 }
