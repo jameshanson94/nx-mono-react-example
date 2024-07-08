@@ -13,3 +13,4 @@ lib
 
 # nx
 .nx/*
+.nx/cache
