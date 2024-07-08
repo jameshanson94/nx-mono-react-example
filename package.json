@@ -4,7 +4,8 @@
   "description": "NX Mono Repo React Example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm nx dev react-app"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@nx/js": "^19.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
@@ -29,6 +31,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "nx": "^19.4.1",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }

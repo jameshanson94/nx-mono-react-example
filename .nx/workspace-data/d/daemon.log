@@ -1,0 +1,60 @@
+[NX Daemon Server] - 2024-07-08T09:48:24.692Z - Started listening on: /tmp/afc869e640b6774b0f4b/d.sock
+[NX Daemon Server] - 2024-07-08T09:48:24.693Z - [WATCHER]: Subscribed to changes within: /home/james/Documents/Development/Projects/nx-mono-react-example (native)
+[NX Daemon Server] - 2024-07-08T09:48:24.700Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:48:24.701Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-08T09:48:24.705Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-07-08T09:48:24.705Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-07-08T09:48:24.705Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-08T09:48:24.705Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:48:24.731Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-08T09:48:24.732Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-07-08T09:48:24.732Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-08T09:48:24.749Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-08T09:48:25.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:49:58.340Z - Started listening on: /tmp/afc869e640b6774b0f4b/d.sock
+[NX Daemon Server] - 2024-07-08T09:49:58.342Z - [WATCHER]: Subscribed to changes within: /home/james/Documents/Development/Projects/nx-mono-react-example (native)
+[NX Daemon Server] - 2024-07-08T09:49:58.350Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:49:58.351Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-08T09:49:58.354Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-08T09:49:58.365Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:49:58.365Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:49:58.365Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:49:58.430Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-08T09:49:58.431Z - Time taken for 'total for creating and serializing project graph' 75.9468360003084ms
+[NX Daemon Server] - 2024-07-08T09:49:58.431Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:49:58.432Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-08T09:49:58.432Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 76. Response time: 2.
+[NX Daemon Server] - 2024-07-08T09:49:58.441Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-08T09:51:39.393Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-07-08T09:51:39.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:51:39.497Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:51:39.497Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-07-08T09:51:39.497Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:51:39.535Z - Time taken for 'hash changed files from watcher' 0.38093800004571676ms
+[NX Daemon Server] - 2024-07-08T09:51:42.622Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:51:42.624Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-08T09:51:42.625Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-08T09:51:42.626Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-08T09:51:42.626Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-08T09:51:42.628Z - Time taken for 'total for creating and serializing project graph' 0.30884300032630563ms
+[NX Daemon Server] - 2024-07-08T09:51:42.629Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-08T09:51:42.629Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-07-08T09:51:42.631Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-08T09:51:49.608Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-07-08T09:51:49.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:51:49.710Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:51:49.711Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-07-08T09:51:49.711Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:51:49.756Z - Time taken for 'hash changed files from watcher' 0.2641579997725785ms
+[NX Daemon Server] - 2024-07-08T09:52:17.082Z - [WATCHER]: pnpm-worksapces.yml was modified
+[NX Daemon Server] - 2024-07-08T09:52:17.083Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:52:17.283Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:52:17.283Z - [REQUEST]: pnpm-worksapces.yml
+[NX Daemon Server] - 2024-07-08T09:52:17.283Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:52:17.322Z - Time taken for 'hash changed files from watcher' 0.15264800004661083ms
+[NX Daemon Server] - 2024-07-08T09:52:33.491Z - [WATCHER]: pnpm-worksapces.yml was modified
+[NX Daemon Server] - 2024-07-08T09:52:33.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:52:33.893Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:52:33.894Z - [REQUEST]: pnpm-worksapces.yml
+[NX Daemon Server] - 2024-07-08T09:52:33.894Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:52:33.935Z - Time taken for 'hash changed files from watcher' 0.20046699978411198ms
