@@ -3,11 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from 'shared-ui'
-import { ViteComponent, dummyFunction,IName, getFullName } from 'react-vite-ui';
+import { ViteComponent, dummyFunction,IName, getFullName, StatefulComponent } from 'react-vite-ui';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   const name = { forename: "Joe", surname: "Blogs"} as IName;
   const fullname = getFullName(name);
 
@@ -21,7 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React v3</h1>
+      <h1>Vite + React v4</h1>
       <div className="card">
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -34,9 +32,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <StatefulComponent />
     </>
   )
 }
