@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "react-vite-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,13 +9,23 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/react-vite-ui.es.js",
+      "require": "./dist/react-vite-ui.umd.js"
+    }
+  },
+  "main": "./dist/react-vite-ui.umd.js",
+  "module": "./dist/react-vite-ui.es.js",
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-vite-ui": "workspace:*",
-    "shared-ui": "workspace:*"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",

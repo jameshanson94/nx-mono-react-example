@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from 'shared-ui'
+import { ViteComponent } from 'react-vite-ui';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
           count is {count}
         </button> */}
         <Button>This is my shared button</Button>
+        <ViteComponent test="test prop">Vite Compoennt</ViteComponent>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
