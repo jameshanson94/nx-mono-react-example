@@ -27,59 +27,191 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "src/packages/react-ui/tsconfig.json",
-        "hash": "1094823341589039708"
+        "file": "packages/react-app/pnpm-lock.yaml",
+        "hash": "8420280624736102578"
       },
       {
-        "file": "src/packages/react-app/README.md",
-        "hash": "11460966644741158790"
-      },
-      {
-        "file": "package.json",
-        "hash": "14913836350583423601"
-      },
-      {
-        "file": "src/packages/react-ui/.eslintrc.cjs",
-        "hash": "18224317155734308275"
-      },
-      {
-        "file": "src/packages/react-ui/src/App.css",
-        "hash": "3739391659270974612"
+        "file": "packages/shared-ui/Button.tsx",
+        "hash": "18284973841985985244"
       },
       {
         "file": "src/packages/react-app/index.html",
         "hash": "4025202329384162906"
       },
       {
-        "file": "src/packages/react-ui/src/App.tsx",
-        "hash": "4238939368060857942"
+        "file": "src/packages/react-app/.eslintrc.cjs",
+        "hash": "18224317155734308275"
+      },
+      {
+        "file": "src/packages/react-ui/src/main.tsx",
+        "hash": "12948679595907665671"
+      },
+      {
+        "file": "src/packages/react-app/src/index.css",
+        "hash": "957896817323665666"
+      },
+      {
+        "file": "packages/react-app/src/App.tsx",
+        "hash": "10154861891402825256"
+      },
+      {
+        "file": "pnpm-worksapces.yml",
+        "hash": "414265049992887245"
+      },
+      {
+        "file": "src/packages/react-ui/.gitignore",
+        "hash": "13046175384202504187"
       },
       {
         "file": "src/packages/react-app/vite.config.ts",
         "hash": "7008402861428644331"
       },
       {
-        "file": "src/packages/react-ui/index.html",
-        "hash": "4025202329384162906"
+        "file": "packages/shared-ui/tsconfig.json",
+        "hash": "1765218875105727645"
       },
       {
-        "file": "src/packages/react-ui/public/vite.svg",
-        "hash": "16046085400642193116"
+        "file": "packages/react-ui/src/App.tsx",
+        "hash": "12996437415630614133"
       },
       {
-        "file": ".gitignore",
-        "hash": "2663053255993005393"
+        "file": "src/packages/react-ui/src/vite-env.d.ts",
+        "hash": "12946363841406869089"
       },
       {
-        "file": "src/packages/react-ui/vite.config.ts",
-        "hash": "7008402861428644331"
+        "file": "packages/react-ui/package.json",
+        "hash": "14922971507268267899"
+      },
+      {
+        "file": "src/packages/react-app/tsconfig.json",
+        "hash": "1094823341589039708"
       },
       {
         "file": "src/packages/react-app/src/main.tsx",
         "hash": "12948679595907665671"
       },
       {
+        "file": "nx.json",
+        "hash": "16966083754913623177"
+      },
+      {
+        "file": "src/packages/react-app/src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "packages/shared-ui/pnpm-lock.yaml",
+        "hash": "15382198956491895951"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "2229206354306305166"
+      },
+      {
+        "file": "README.md",
+        "hash": "4910413491833689241"
+      },
+      {
+        "file": "src/packages/react-ui/src/index.css",
+        "hash": "957896817323665666"
+      },
+      {
+        "file": "packages/react-app/package.json",
+        "hash": "7393058146702561194"
+      },
+      {
+        "file": "src/packages/react-ui/src/App.tsx",
+        "hash": "4238939368060857942"
+      },
+      {
+        "file": "src/packages/react-app/src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "src/packages/react-app/src/App.tsx",
+        "hash": "4238939368060857942"
+      },
+      {
+        "file": "src/packages/react-app/package.json",
+        "hash": "16825488568945945735"
+      },
+      {
+        "file": "src/packages/react-app/tsconfig.node.json",
+        "hash": "5733066493089164465"
+      },
+      {
+        "file": "package.json",
+        "hash": "14913836350583423601"
+      },
+      {
+        "file": "packages/react-ui/pnpm-lock.yaml",
+        "hash": "17536108476399743215"
+      },
+      {
         "file": "src/packages/react-ui/tsconfig.app.json",
+        "hash": "3634638664298967194"
+      },
+      {
+        "file": "packages/shared-ui/index.tsx",
+        "hash": "14112060284562356114"
+      },
+      {
+        "file": "src/packages/react-app/public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "src/packages/react-ui/public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "src/packages/react-ui/.eslintrc.cjs",
+        "hash": "18224317155734308275"
+      },
+      {
+        "file": "src/packages/react-app/src/vite-env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "src/packages/react-ui/index.html",
+        "hash": "4025202329384162906"
+      },
+      {
+        "file": "src/packages/react-app/README.md",
+        "hash": "11460966644741158790"
+      },
+      {
+        "file": "src/packages/react-ui/package.json",
+        "hash": "16668118886893786473"
+      },
+      {
+        "file": "packages/shared-ui/package.json",
+        "hash": "17107662660274783169"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2663053255993005393"
+      },
+      {
+        "file": "src/packages/react-ui/tsconfig.json",
+        "hash": "1094823341589039708"
+      },
+      {
+        "file": "src/packages/react-ui/tsconfig.node.json",
+        "hash": "5733066493089164465"
+      },
+      {
+        "file": "src/packages/react-app/.gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": "src/packages/react-ui/src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "src/packages/react-ui/vite.config.ts",
+        "hash": "7008402861428644331"
+      },
+      {
+        "file": "src/packages/react-app/tsconfig.app.json",
         "hash": "3634638664298967194"
       },
       {
@@ -87,96 +219,12 @@
         "hash": "11460966644741158790"
       },
       {
-        "file": "src/packages/react-ui/src/index.css",
-        "hash": "957896817323665666"
-      },
-      {
-        "file": "src/packages/react-app/src/assets/react.svg",
-        "hash": "16069471864800376455"
-      },
-      {
-        "file": "src/packages/react-app/src/App.tsx",
-        "hash": "4238939368060857942"
-      },
-      {
-        "file": "src/packages/react-ui/tsconfig.node.json",
-        "hash": "5733066493089164465"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16966083754913623177"
-      },
-      {
-        "file": "src/packages/react-app/.gitignore",
-        "hash": "13046175384202504187"
-      },
-      {
-        "file": "src/packages/react-ui/.gitignore",
-        "hash": "13046175384202504187"
-      },
-      {
-        "file": "src/packages/react-app/tsconfig.app.json",
-        "hash": "3634638664298967194"
-      },
-      {
-        "file": "src/packages/react-app/public/vite.svg",
-        "hash": "16046085400642193116"
-      },
-      {
-        "file": "src/packages/react-app/src/App.css",
-        "hash": "3739391659270974612"
-      },
-      {
-        "file": "src/packages/react-app/src/vite-env.d.ts",
-        "hash": "12946363841406869089"
-      },
-      {
-        "file": "src/packages/react-ui/package.json",
-        "hash": "16668118886893786473"
-      },
-      {
-        "file": "README.md",
-        "hash": "4910413491833689241"
-      },
-      {
-        "file": "pnpm-worksapces.yml",
-        "hash": "414265049992887245"
-      },
-      {
-        "file": "src/packages/react-ui/src/main.tsx",
-        "hash": "12948679595907665671"
-      },
-      {
-        "file": "src/packages/react-ui/src/vite-env.d.ts",
-        "hash": "12946363841406869089"
-      },
-      {
-        "file": "src/packages/react-app/tsconfig.json",
-        "hash": "1094823341589039708"
-      },
-      {
-        "file": "src/packages/react-app/src/index.css",
-        "hash": "957896817323665666"
-      },
-      {
-        "file": "src/packages/react-app/.eslintrc.cjs",
-        "hash": "18224317155734308275"
-      },
-      {
-        "file": "src/packages/react-app/package.json",
-        "hash": "16825488568945945735"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "2229206354306305166"
-      },
-      {
         "file": "src/packages/react-ui/src/assets/react.svg",
         "hash": "16069471864800376455"
       },
       {
-        "file": "src/packages/react-app/tsconfig.node.json",
-        "hash": "5733066493089164465"
+        "file": ".vscode/settings.json",
+        "hash": "8566506714801935677"
       }
     ],
     "projectFileMap": {}
