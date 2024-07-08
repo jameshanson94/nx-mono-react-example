@@ -7,6 +7,7 @@ export default function ViteComponent(props: any) {
       <h1>Hi, I'm ViteComponent</h1>
       <p>Here are my props:</p>
       <pre>{JSON.stringify(props, null, 2)}</pre>
+      <p>Here is my environment:</p>
     </div>
   );
 }

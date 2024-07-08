@@ -6,7 +6,7 @@ export default function StatefulComponent() {
 
   return (
     <div>
-      <p>{state}</p>
+      <p>v1 {state}</p>
       <button onClick={() => setState(state + 1)}>Increment</button>
     </div>
   );
