@@ -20,5 +20,5 @@
      "react-vite-ui": [ "src/index.ts" ]
    },
   },
-  "include": ["src"]
+  "include": ["src/index.ts"]
 }
