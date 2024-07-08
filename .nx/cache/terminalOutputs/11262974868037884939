@@ -1,9 +1,0 @@
-
-> react-app@0.0.0 build /home/james/Documents/Development/Projects/nx-mono-react-example/packages/react-app
-> tsc -b && vite build
-
-../shared-ui/Button.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
-src/App.tsx(1,1): error TS6133: 'useState' is declared but its value is never read.
-src/App.tsx(6,84): error TS7016: Could not find a declaration file for module 'react-vite-ui'. '/home/james/Documents/Development/Projects/nx-mono-react-example/packages/react-vite-ui/dist/react-vite-ui.es.js' implicitly has an 'any' type.
-  Try `npm i --save-dev @types/react-vite-ui` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-vite-ui';`
-[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

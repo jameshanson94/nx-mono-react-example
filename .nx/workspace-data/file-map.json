@@ -23,11 +23,7 @@
     "nonProjectFiles": [
       {
         "file": ".gitignore",
-        "hash": "2663053255993005393"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "8566506714801935677"
+        "hash": "12482881539063852248"
       },
       {
         "file": "README.md",
@@ -153,6 +149,36 @@
           ]
         }
       ],
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "17360461145128757811",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "14112060284562356114"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "17107662660274783169",
+          "deps": [
+            "npm:@types/node",
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/pnpm-lock.yaml",
+          "hash": "15382198956491895951"
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "1765218875105727645"
+        }
+      ],
       "react-vite-ui": [
         {
           "file": "packages/react-vite-ui/.eslintrc.cjs",
@@ -240,36 +266,6 @@
             "npm:vite",
             "npm:@vitejs/plugin-react"
           ]
-        }
-      ],
-      "shared-ui": [
-        {
-          "file": "packages/shared-ui/Button.tsx",
-          "hash": "17360461145128757811",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/shared-ui/index.tsx",
-          "hash": "14112060284562356114"
-        },
-        {
-          "file": "packages/shared-ui/package.json",
-          "hash": "17107662660274783169",
-          "deps": [
-            "npm:@types/node",
-            "npm:typescript",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/shared-ui/pnpm-lock.yaml",
-          "hash": "15382198956491895951"
-        },
-        {
-          "file": "packages/shared-ui/tsconfig.json",
-          "hash": "1765218875105727645"
         }
       ]
     }
