@@ -3,10 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from 'shared-ui'
-import { ViteComponent } from 'react-vite-ui';
+import { ViteComponent, dummyFunction,IName, getFullName } from 'react-vite-ui';
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const name = { forename: "Joe", surname: "Blogs"} as IName;
+  const fullname = getFullName(name);
 
   return (
     <>
@@ -18,12 +21,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React v3</h1>
       <div className="card">
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button> */}
         <Button>This is my shared button</Button>
+        <div>{dummyFunction("ABC")}</div>
+        <div>{`fullname test: ${JSON.stringify(fullname)}`}</div>
         <ViteComponent test="test prop">Vite Compoennt</ViteComponent>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
