@@ -58,3 +58,9 @@
 [NX Daemon Server] - 2024-07-08T09:52:33.894Z - [REQUEST]: pnpm-worksapces.yml
 [NX Daemon Server] - 2024-07-08T09:52:33.894Z - [REQUEST]: 
 [NX Daemon Server] - 2024-07-08T09:52:33.935Z - Time taken for 'hash changed files from watcher' 0.20046699978411198ms
+[NX Daemon Server] - 2024-07-08T09:52:55.379Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-07-08T09:52:55.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-08T09:52:56.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-08T09:52:56.183Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-08T09:52:56.183Z - [REQUEST]: src/packages
+[NX Daemon Server] - 2024-07-08T09:52:56.217Z - Time taken for 'hash changed files from watcher' 0.10556899989023805ms
